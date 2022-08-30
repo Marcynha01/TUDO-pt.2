@@ -1,0 +1,64 @@
+.container {
+flex: 1;
+display: column;
+margin: auto;
+width:30rem;
+
+}
+.container h1{
+    color: aqua;
+    font-family: cursive;
+text-align: center;
+padding-bottom: 1rem;
+border-bottom: 2px solid #fff;
+}
+.input-task{
+    margin: auto;
+    width: rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    outline: none;
+    background-color: aliceblue;
+    color: aliceblue;
+    border-radius: 0.5rem;
+   
+}.input-task::placeholder{
+    background-color: aliceblue;
+}
+.input-task::hover{
+    background-color: rgb(55, 45, 65);
+}
+.button-task{
+    width: 30.2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid aliceblue;
+    background-color: aqua;
+    color: aliceblue;
+
+}
+.button-task:hover{
+    background-color: aqua;
+    color: aliceblue;
+}
+.container-list h2{
+    color: aqua;
+text-align: center;
+font-family: cursive;
+margin-top: 4rem;
+}
+.container-list ul{
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+.container-list li{
+background-color: #fff;
+color: aliceblue;
+margin-top: 0.5rem;
+border-radius: 0.5rem;
+padding: 0.5rem;
+text-align: center;
+font-weight: bold ;
+}
+
